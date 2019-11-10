@@ -6,9 +6,9 @@ Deployed to the digitalOcean droplet
 
 Working getting together a container for this that will pull from this github:
 
-```#Download base image ubuntu 18.04
+```#Download base image ubuntu 18.04```
 
-FROM ubuntu:18.04
+```FROM ubuntu:18.04```
 
 MAINTANER Justin Hagerty "Justinshagerty@gmail.com"
 
@@ -28,4 +28,4 @@ RUN cd /Application
 
 RUN git clone <put your url here> 
 
-RUN <what ever command starts your app> ```
+RUN <what ever command starts your app> 
