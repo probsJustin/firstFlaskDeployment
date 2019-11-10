@@ -1,0 +1,31 @@
+#read me for the deployment of a flask project in linux for myself 
+
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+
+Deployed to the digitalOcean droplet 
+
+Working getting together a container for this that will pull from this github:
+
+```#Download base image ubuntu 18.04
+
+FROM ubuntu:18.04
+
+MAINTANER Justin Hagerty "Justinshagerty@gmail.com"
+
+RUN apt-get update
+
+RUN apt-get install python3
+
+RUN apt-get install -y python-pip python-dev build-essential
+
+RUN pip install flask
+
+RUN apt-get install git
+
+WORKDIR /Application
+
+RUN cd /Application
+
+RUN git clone <put your url here> 
+
+RUN <what ever command starts your app> ```
