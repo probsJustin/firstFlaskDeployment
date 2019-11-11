@@ -1,8 +1,8 @@
-#first containerized flask deployment informaiton  
+#first containerized flask deployment informaiton for dockerfiile deployment tests 
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
 Deployed to the digitalOcean droplet 
 
-Working getting together a container for this that will pull from this github:
+Working on getting together a container for this that will pull from this github:
 
