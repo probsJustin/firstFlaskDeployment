@@ -6,3 +6,6 @@ Deployed to the digitalOcean droplet
 
 Working on getting together a container for this that will pull from this github:
 
+-- working on a deployment method for updating and it takes about 4-5 minutes round trip from local->github->remoteServer I did not like that deployment method for updates. 
+I may go with just sftp to upload to remote servers/update files etc. 
+
